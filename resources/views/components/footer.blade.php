@@ -5,9 +5,9 @@
 				<div class="col-12 col-lg-7 col-xl-4">
 					<div class="tk-footer_info">
 						@if( !empty(setting('_site.site_lite_logo')) )
-                            <strong class="tk-footerlogo"><a href="{{ url('/')}}"><img src="{{asset('storage/'.setting('_site.site_lite_logo')[0]['path'])}}" alt="{{ __('general.logo') }}" /></a></strong>
+                            <strong class="tk-footerlogo"><a href="{{ url('/')}}"><img src="{{asset('storage/assets/images/logo.webp')}}" alt="{{ __('general.logo') }}" /></a></strong>
                         @else
-                            <strong ><a href="{{ url('/')}}"><img src="{{asset('demo-content/logo.png')}}" alt="{{ __('general.logo') }}" /></a></strong>
+                            <strong ><a href="{{ url('/')}}"><img src="{{asset('storage/assets/images/logo.webp')}}" alt="{{ __('general.logo') }}" /></a></strong>
                         @endif
 						@if(!empty(setting('_site.footer_text')))
 							<div class="tk-description">

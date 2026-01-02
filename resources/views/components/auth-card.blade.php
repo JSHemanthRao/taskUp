@@ -5,9 +5,9 @@
     <div class="tk-login-content">
         <div class="tk-login-info">
             @if( !empty($sitelogo) )
-                <a href="{{ url('/')}}"><img src="{{asset('storage/'.$sitelogo)}}" alt="{{ __('general.logo') }}" /></a>
+                <a href="{{ url('/')}}"><img src="{{asset('storage/assets/images/logo.webp')}}" alt="{{ __('general.logo') }}" /></a>
             @else
-                <a href="{{ url('/')}}"><img src="{{asset('demo-content/logo.png')}}" alt="{{ __('general.logo') }}" /></a>
+                <a href="{{ url('/')}}"><img src="{{asset('storage/assets/images/logo.webp')}}" alt="{{ __('general.logo') }}" /></a>
             @endif
             @if( !empty($description) )<span>{{$description}}</span>@endif
         </div>
@@ -16,7 +16,7 @@
     <div class="tk-login-banner">
         @if( !empty($auth_bg) )
             <figure class="tk-login-img">
-                <img src="{{asset('storage/'.$auth_bg)}}" alt="login image">
+                <img src="{{asset('storage/assets/images/banner.png')}}" alt="login image">
             </figure>
         @endif
     </div>

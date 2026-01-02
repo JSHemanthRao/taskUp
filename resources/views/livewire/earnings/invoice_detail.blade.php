@@ -64,7 +64,7 @@
                                 </figure>
                                 @else
                                 <figure>
-                                    <img src="{{asset('demo-content/logo.png')}}" alt="{{ __('general.logo') }}" />
+                                    <img src="{{asset('storage/assets/images/logo.webp')}}" alt="{{ __('general.logo') }}" />
                                 </figure>
                                 @endif
                                 <div class="tk-billno">

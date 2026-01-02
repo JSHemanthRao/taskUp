@@ -27,9 +27,9 @@
                     <div class="tk-headerwrap">
                         <div class="tk-logo">
                             @if( !empty($siteLogo) )
-                                <a href="{{ url('/')}}"><img src="{{asset('storage/'.$siteLogo)}}" alt="{{ __('general.logo') }}" /></a>
+                                <a href="{{ url('/')}}"><img src="{{asset('storage/assets/images/logo.webp')}}" alt="{{ __('general.logo') }}" /></a>
                             @else
-                                <a href="{{ url('/')}}"><img src="{{asset('demo-content/logo.png')}}" alt="{{ __('general.logo') }}" /></a>
+                                <a href="{{ url('/')}}"><img src="{{asset('storage/assets/images/logo.webp')}}" alt="{{ __('general.logo') }}" /></a>
                             @endif
                         </div>
                         <nav class="tk-navbar navbar-expand-xl">

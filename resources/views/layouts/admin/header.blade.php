@@ -1,7 +1,7 @@
 @php
     $info       = getUserInfo();
     $siteInfo   = getSiteInfo();
-    $site_dark_logo  = !empty($siteInfo['site_dark_logo']) ? 'storage/'.$siteInfo['site_dark_logo'] : 'images/logo.svg';
+    $site_dark_logo  = !empty($siteInfo['site_dark_logo']) ? 'storage/'.$siteInfo['site_dark_logo'] : 'storage/assets/images/logo.webp';
  
 @endphp
 
